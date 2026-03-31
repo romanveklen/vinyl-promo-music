@@ -1,0 +1,40 @@
+/* Подключаем твой фирменный шрифт */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700;900&display=swap');
+
+/* Перекрашиваем фон виджета и текст */
+body, #tc-widget-root, .tc-app, .tc-layout {
+    background-color: #121212 !important;
+    color: #ffffff !important;
+    font-family: 'Montserrat', -apple-system, sans-serif !important;
+}
+
+/* Стилизуем все кнопки в твой желтый цвет */
+button, .tc-button, .tc-btn {
+    background-color: #FDDB38 !important;
+    color: #121212 !important;
+    border-radius: 30px !important;
+    font-weight: 900 !important;
+    text-transform: uppercase !important;
+    border: none !important;
+    box-shadow: none !important;
+    transition: transform 0.2s !important;
+}
+
+button:hover, .tc-button:hover {
+    transform: scale(1.02) !important;
+    background-color: #fce262 !important;
+}
+
+/* Затемняем плашки билетов и формы */
+.tc-ticket-card, .tc-panel, .tc-form-group, .tc-order-summary {
+    background-color: #181818 !important;
+    border: 1px solid #333 !important;
+    border-radius: 12px !important;
+    color: #fff !important;
+}
+
+/* Перекрашиваем ссылки и акценты */
+a, .tc-link {
+    color: #FDDB38 !important;
+    text-decoration: none !important;
+}
